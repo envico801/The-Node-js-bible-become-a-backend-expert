@@ -12,6 +12,26 @@ A: The processor is the brain of the system, it processes everything that happen
 Q: What is machine code (processor languages)?  
 A: They are languages or code that the processor understands (low level) and that allow us to interact with it.
 
+#### C2
+
+Q: What is ECMA?  
+A: It is an organization for information and communication systems.
+
+Q: What is ECMAScript?  
+A: It is the "rules" that govern the current javascript language. It was created because in the past browser manufacturers began to create their own interpretations of the language and with them came small adjustments and differences.
+
+Q: In what year was the ES5 version of javascript released?  
+A: 2009
+
+Q: In which year was the ES6 version of javascript released?  
+A: 2015
+
+Q: What is ES Next?  
+A: It is all the versions after ES6 (ES6 onwards).
+
+Q: What is an engine (as far as javascript is concerned)?  
+A: It is a program that converts javascript code into something that the processor can understand.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
