@@ -32,6 +32,11 @@ A: It is all the versions after ES6 (ES6 onwards).
 Q: What is an engine (as far as javascript is concerned)?  
 A: It is a program that converts javascript code into something that the processor can understand.
 
+#### C3
+
+Q: What is the V8 engine?  
+A: It is the javascript engine used by google chrome and node.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
