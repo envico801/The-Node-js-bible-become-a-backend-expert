@@ -37,6 +37,19 @@ A: It is a program that converts javascript code into something that the process
 Q: What is the V8 engine?  
 A: It is the javascript engine used by google chrome and node.
 
+### JavaScript on the server: Node.js
+
+#### C1
+
+Q: What is a server (in its simplest form)?  
+A: It is a computer that is providing services, it performs the work that is requested of it.
+
+Q: What is the standard format of communication between a client and a server?  
+A: HTTP
+
+Q: What is AJAX?  
+A: It is a technique used for asynchronous communication between a client and a server.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
