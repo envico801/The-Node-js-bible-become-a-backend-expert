@@ -50,6 +50,19 @@ A: HTTP
 Q: What is AJAX?  
 A: It is a technique used for asynchronous communication between a client and a server.
 
+### 5. JavaScript (ES6+) Review
+
+#### C2
+
+Q: What is an expression?  
+A: It is anything that produces a data type (Object, String, Number, Boolean, Array, Set, Map, Function, Symbol, undefined, null, etc...).
+```javascript
+const test = 34; // 34 is an expression
+```
+
+Q: What are the javascript collections (types)?  
+A: Array, Set, Map
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
