@@ -56,11 +56,12 @@ A: It is a technique used for asynchronous communication between a client and a 
 
 Q: What is an expression?  
 A: It is anything that produces a data type (Object, String, Number, Boolean, Array, Set, Map, Function, Symbol, undefined, null, etc...).
+
 ```javascript
 const test = 34; // 34 is an expression
 ```
 
-Q: What are the javascript collections (types)?  
+Q: What are the javascript collections?  
 A: Array, Set, Map
 
 ---
