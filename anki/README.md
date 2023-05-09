@@ -64,6 +64,11 @@ const test = 34; // 34 is an expression
 Q: What are the javascript collections?  
 A: Array, Set, Map
 
+#### C4
+
+Q: What is a variable?  
+A: It is a space in memory that is used to store data and to access this space a name is used, as if it were the key to a door.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
