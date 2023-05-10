@@ -74,6 +74,11 @@ A: It is a space in memory that is used to store data and to access this space a
 Q: What is a logical operator (what does it allow us to do)?  
 A: It allows us to combine several expressions and from them produce a boolean value.
 
+#### C6
+
+Q: What is a conditional?  
+A: It is a piece of code that allows us to evaluate if a condition is met and based on that to do something.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
