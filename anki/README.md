@@ -143,6 +143,27 @@ A: One process or one thing running at a time.
 Q: Why is javascript said to be synchronous?  
 A: Because it executes line by line, it was designed for that, there is always only 1 thing running at any given time.
 
+#### C2
+
+Q: What is an event?  
+A: It is something that has happened in our application that we can respond to, this concept is found in many areas of software architecture.
+
+Q: Why is it said that nodejs has 2 types of events?  
+A: They are often connected to each other, but node on the one hand handles the system events (C++, the nodejs core) thanks to the livuv library.
+On the other hand there are the custom events that are triggered by the event handler inside the javascript core. They are handled by another library that deals with events (where basically something happens and we can respond).
+
+Q: What kind of events does livuv send?  
+A: Sends events that are happening inside the computer system (low level).
+
+Q: Why is it said that the 2 types of events that exist in node are connected?  
+A: Because many times the events that are executed at system level (with the livuv library) are forwarded by the javascript event handler, that's why many times they are confused with only 1 thing
+
+Q: Why is it said that there are no "real" events in javascript?  
+A: Javascript does not have the concept of "event" (there is no event type), in reality what is happening is a "trick" (it is a simulation, it is just an object with properties).
+
+Q: Why is the term "syntactic-sugar" used when talking about classes?  
+A: Because it is used to simulate the behavior of first-order functions.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
