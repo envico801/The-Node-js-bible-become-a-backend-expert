@@ -79,6 +79,14 @@ A: It allows us to combine several expressions and from them produce a boolean v
 Q: What is a conditional?  
 A: It is a piece of code that allows us to evaluate if a condition is met and based on that to do something.
 
+#### C11
+
+Q: What is a callback?  
+A: It is a function that is passed as an argument to another function to execute it. Usually the function that is passed as an argument is a pointer/address in memory.
+
+Q: What is the first parameter in a callback function?  
+A: The first parameter should correspond to an error (if any).
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
