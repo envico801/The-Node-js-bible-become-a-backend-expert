@@ -105,6 +105,28 @@ A: It is a reusable block of code whose existence does not accidentally affect o
 Q: What is CommonJS?  
 A: It is a set of rules for how code modules should be structured.
 
+#### C2
+
+Q: Why does node create a module cache?  
+A: Because by requiring a module node will "cache" the content of the module using a singleton (a single instance) that will be stored in memory during the execution of the code.
+
+Q: Why do you have to export components of a module?  
+A: Because everything that is not plain code will require you to export it explicitly, for example:
+
+```javascript
+funcion asd() {
+    return "asd"
+}
+
+module.export = asd
+// ---
+const asdFun = require("./myModule")
+asdFun() // "asd"
+```
+
+Q: In what order node looks for the available modules?  
+A: It looks for them first in the main directory and if it doesn't find them there it will look for them in "./node_modules", if it doesn't find them there it will produce an error.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
