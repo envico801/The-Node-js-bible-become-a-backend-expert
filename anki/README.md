@@ -127,6 +127,22 @@ asdFun() // "asd"
 Q: In what order node looks for the available modules?  
 A: It looks for them first in the main directory and if it doesn't find them there it will look for them in "./node_modules", if it doesn't find them there it will produce an error.
 
+### 7. Synchrony vs. Asynchrony
+
+#### C1
+
+Q: What is asynchrony?  
+A: It is more than one process/thing running simultaneously.
+
+Q: Does Node do things asynchronously?  
+A: Yes, but its engine (v8) does them synchronously.
+
+Q: What is synchrony?  
+A: One process or one thing running at a time.
+
+Q: Why is javascript said to be synchronous?  
+A: Because it executes line by line, it was designed for that, there is always only 1 thing running at any given time.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
