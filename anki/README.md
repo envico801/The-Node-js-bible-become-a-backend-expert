@@ -95,6 +95,16 @@ A: This will cause the function to return a promise.
 Q: What happens when the await word is called?  
 A: Calling the await word causes the execution of a function to pause (in most cases) until a promise is resolved or rejected. It will return a completed promise
 
+### 6. Modules, exports & require
+
+#### C1
+
+Q: What is a module?  
+A: It is a reusable block of code whose existence does not accidentally affect other code.
+
+Q: What is CommonJS?  
+A: It is a set of rules for how code modules should be structured.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
