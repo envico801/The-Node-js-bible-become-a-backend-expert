@@ -69,6 +69,11 @@ A: Array, Set, Map
 Q: What is a variable?  
 A: It is a space in memory that is used to store data and to access this space a name is used, as if it were the key to a door.
 
+#### C5
+
+Q: What is a logical operator (what does it allow us to do)?  
+A: It allows us to combine several expressions and from them produce a boolean value.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
