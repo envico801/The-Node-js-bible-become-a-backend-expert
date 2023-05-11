@@ -164,6 +164,21 @@ A: Javascript does not have the concept of "event" (there is no event type), in 
 Q: Why is the term "syntactic-sugar" used when talking about classes?  
 A: Because it is used to simulate the behavior of first-order functions.
 
+#### C4
+
+Q: What are magic strings?  
+A: A magic string is a string that declares directly in several places in a code without assigning it to a variable. According to magic strings, a program’s behavior can change. Examples of magic strings include cache keys, specific URL patterns, prefixes, user types.
+
+```javascript
+function myFun(foo) {
+  if (foo == 'bar') {
+    // do something
+  }
+}
+// and someone accidentally types:
+myFun('barr');
+```
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
