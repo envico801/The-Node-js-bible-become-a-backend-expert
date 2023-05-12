@@ -225,6 +225,29 @@ A: It is a block of code that runs between the request made by the user until th
 Q: What is the MVC pattern?  
 A: Software design pattern for programming that proposes to separate the code of the programs by their different responsibilities.
 
+### 9. Databases
+
+#### C1
+
+Q: From what year did SQL (relational) databases start to be used?  
+A: They started to be used in the 80's and until today they are still the most popular option.
+
+Q: What is a relational database?  
+A: The principle of relational databases is based on the organization of information in small pieces, which are related to each other through the relationship of identifiers.
+This allows to make relationships with other tables (which is the representation of the entity in the database).
+
+Q: What is ACID?  
+A: It means Atomicity, Consistency, Isolation and Durability. These are properties that relational databases bring to systems and allow them to be more robust and less vulnerable to failures.
+
+Q: What is a NO-SQL (non-relational) database?  
+A: As its name suggests, non-relational databases are those that, unlike relational databases, do not have an identifier that serves as a relationship between one set of data and another. They are very useful when we do not have an exact schema of what is going to be stored.
+
+Q: What is an ORM?  
+A: Object Relational Mapping, is a programming model that consists of the transformation of the tables of a database, in a series of entities (a model, class or a simple object) that simplify the basic tasks of access to the data for the programmer.
+
+Q: What is an ODM?  
+A: It is the same as an ORM but it is intended for non-relational databases (NO-SQL).
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
