@@ -200,6 +200,23 @@ A: It is the system that allows the transfer of information between different se
 Q: What is a web server?  
 A: It is the software that is responsible for delivering the content of a website to the user.
 
+#### C6
+
+Q: For what purpose is the GET (HTTP) verb used?  
+A: To read a resource
+
+Q: For what purpose is the POST (HTTP) verb used?  
+A: To create a new resource
+
+Q: For what purpose is the PUT (HTTP) verb used?  
+A: To replace an existing resource
+
+Q: For what purpose is the PATCH (HTTP) verb used?  
+A: To update a property of a resource (often used interchangeably with the PUT verb, but PUT is used when you want to update a resource completely).
+
+Q: For what purpose is the DELETE verb (HTTP) used?  
+A: To remove a resource
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
