@@ -190,6 +190,16 @@ A: We could say that it is a connector between worlds, on the one hand the event
 Q: What is non-blocking IO?  
 A: It is the ability to do actions without pausing or stopping other actions (as long as it is done correctly).
 
+### 8. HTTP protocol and web servers
+
+#### C1
+
+Q: What is HTTP?  
+A: It is the system that allows the transfer of information between different services and the clients that use web pages (or any application that invokes the HTTP protocol).
+
+Q: What is a web server?  
+A: It is the software that is responsible for delivering the content of a website to the user.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
