@@ -217,6 +217,14 @@ A: To update a property of a resource (often used interchangeably with the PUT v
 Q: For what purpose is the DELETE verb (HTTP) used?  
 A: To remove a resource
 
+#### C9
+
+Q: What is middleware?  
+A: It is a block of code that runs between the request made by the user until the request reaches the server, it is an intermediary.
+
+Q: What is the MVC pattern?  
+A: Software design pattern for programming that proposes to separate the code of the programs by their different responsibilities.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
