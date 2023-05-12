@@ -179,6 +179,17 @@ function myFun(foo) {
 myFun('barr');
 ```
 
+#### C5
+
+Q: Is the event loop concept part of the javascript engine (V8) or of the livuv library?  
+A: The event loop is part of the livuv library, it is something that is usually implemented by each javascript runtime environment to handle asynchronism, for example, the browser also implements its own version without using the livuv library.
+
+Q: What is the event loop?  
+A: We could say that it is a connector between worlds, on the one hand the event queue (that have environments like node or chrome, etc) and on the other hand the callstack (by the javascript engine V8), it is used to handle asynchronous events because javascript is synchronous, first priority is given to the actions that are in the callback and then once it is emptied will begin to run the events in the queue.
+
+Q: What is non-blocking IO?  
+A: It is the ability to do actions without pausing or stopping other actions (as long as it is done correctly).
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
