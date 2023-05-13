@@ -248,6 +248,14 @@ A: Object Relational Mapping, is a programming model that consists of the transf
 Q: What is an ODM?  
 A: It is the same as an ORM but it is intended for non-relational databases (NO-SQL).
 
+#### C4
+
+What is a cron job?
+It is an extremely useful tool which is used to implement any repetitive task automatically.
+
+What is web scraping?
+It is a technique used by software programs to extract information from websites.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
