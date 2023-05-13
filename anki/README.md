@@ -250,11 +250,11 @@ A: It is the same as an ORM but it is intended for non-relational databases (NO-
 
 #### C4
 
-What is a cron job?
-It is an extremely useful tool which is used to implement any repetitive task automatically.
+Q: What is a cron job?  
+A: It is an extremely useful tool which is used to implement any repetitive task automatically.
 
-What is web scraping?
-It is a technique used by software programs to extract information from websites.
+Q: What is web scraping?  
+A: It is a technique used by software programs to extract information from websites.
 
 ### 10. Frontend and Backend
 
