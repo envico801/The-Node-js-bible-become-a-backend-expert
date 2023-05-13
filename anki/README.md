@@ -256,6 +256,19 @@ It is an extremely useful tool which is used to implement any repetitive task au
 What is web scraping?
 It is a technique used by software programs to extract information from websites.
 
+### 10. Frontend and Backend
+
+#### C1
+
+Q: What is the frontend?  
+A: It is the visual part (client) that is used to interact with any software or process.
+
+Q: What is the backend?  
+A: It is the part of a software that manipulates the business logic and data persistence (server).
+
+Q: What is a framework?  
+A: It is a conceptual and technological structure of defined support, usually with artifacts or concrete software modules, which can serve as a basis for the organization and development of software.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
