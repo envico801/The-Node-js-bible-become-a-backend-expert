@@ -277,6 +277,22 @@ It is an open source programming language developed by Microsoft, which has obje
 Q: What is a superset?  
 A: It is a programming language written on top of another language.
 
+### 11. Architecture for APIs
+
+#### C1
+
+Q: What is an API?  
+A: It is a set of definitions and protocols used to develop and integrate application software.
+
+Q: What is an architectural pattern?  
+A: It is a general and reusable solution to a common problem in software architecture within a given context.
+
+Q: What is the recommended use of "N-tier" architecture?  
+A: It is recommended to use this architecture in desktop applications in general and in API's.
+
+Q: What is the recommended use of "client and server" architecture?  
+A: It is recommended to use this architecture in low coupling applications. Example, mobile applications and API's
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
