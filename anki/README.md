@@ -90,7 +90,7 @@ A: The first parameter should correspond to an error (if any).
 #### C16
 
 Q: What happens when we add the word async to a function?  
-A: This will cause the function to return a promise.
+A: This will cause the function to return a promise. And it also allows us to use the "await" word to handle other promises within the function.
 
 Q: What happens when the await word is called?  
 A: Calling the await word causes the execution of a function to pause (in most cases) until a promise is resolved or rejected. It will return a completed promise
