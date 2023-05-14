@@ -269,6 +269,14 @@ A: It is the part of a software that manipulates the business logic and data per
 Q: What is a framework?  
 A: It is a conceptual and technological structure of defined support, usually with artifacts or concrete software modules, which can serve as a basis for the organization and development of software.
 
+#### C7
+
+Q: What is typescript?  
+It is an open source programming language developed by Microsoft, which has object-oriented programming tools, very favorable if you have large projects.
+
+Q: What is a superset?  
+A: It is a programming language written on top of another language.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
