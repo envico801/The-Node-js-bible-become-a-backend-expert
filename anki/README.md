@@ -34,7 +34,7 @@ A: It is a program that converts javascript code into something that the process
 
 #### C3
 
-Q: What is the V8 engine?  
+Q: Where is the V8 javascript engine used?  
 A: It is the javascript engine used by google chrome and node.
 
 ### 4. JavaScript on the server: Node.js
@@ -103,7 +103,7 @@ Q: What is a module?
 A: It is a reusable block of code whose existence does not accidentally affect other code.
 
 Q: What is CommonJS?  
-A: It is a set of rules for how code modules should be structured.
+A: It is a set of rules for how code modules should be structured. Its format has been heavily influenced by NodeJS module management.
 
 #### C2
 
@@ -146,7 +146,7 @@ A: Because it executes line by line, it was designed for that, there is always o
 #### C2
 
 Q: What is an event?  
-A: It is something that has happened in our application that we can respond to, this concept is found in many areas of software architecture.
+A: It is a situation that has happened in our application, to which we can respond, this concept is found in many areas of software architecture.
 
 Q: Why is it said that nodejs has 2 types of events?  
 A: They are often connected to each other, but node on the one hand handles the system events (C++, the nodejs core) thanks to the livuv library.
