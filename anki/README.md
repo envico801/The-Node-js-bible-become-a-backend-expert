@@ -9,7 +9,7 @@
 Q: What is a processor (speaking of computers)?  
 A: The processor is the brain of the system, it processes everything that happens on the PC and executes all the actions that exist.
 
-Q: What are processor languages (machine code)?
+Q: What are processor languages (machine code)?  
 A: They are languages or codes that the processor understands (at a low level) and that allow us to interact with it.
 
 #### C2
@@ -155,7 +155,7 @@ Q: What kind of events does livuv send?
 A: Livuv sends events that are occurring within the computer system (at a low level).
 
 Q: Why is it said that the 2 types of events that exist in node are connected?  
-A: Because many times the events that are executed at system level (with the livuv library) are forwarded by the javascript event handler, that's why many times they are confused with only 1 thing
+A: Because many times the events that are executed at system level (with the livuv library) are forwarded to the javascript event handler, that's why many times they are confused with only 1 thing.
 
 Q: Why is it said that there are no "real" events in javascript?  
 A: Javascript does not have the concept of "event" (there is no event type), in reality what is happening is a "trick" (it is a simulation, it is just an object with properties).
@@ -166,7 +166,8 @@ A: Because it is used to simulate the behavior of first-order functions.
 #### C4
 
 Q: What are magic strings?  
-A: A magic string is a string that declares directly in several places in a code without assigning it to a variable. According to magic strings, a program’s behavior can change. Examples of magic strings include cache keys, specific URL patterns, prefixes, user types.
+A: A magic string is a string that declares directly in several places in a code without assigning it to a variable.  
+According to magic strings, a program’s behavior can change. Examples of magic strings include cache keys, specific URL patterns, prefixes, user types.
 
 ```javascript
 function myFun(foo) {
@@ -184,7 +185,7 @@ Q: Is the event loop concept part of the javascript engine (V8) or of the livuv 
 A: The event loop is part of the livuv library, it is something that is usually implemented by each javascript runtime environment to handle asynchronism, for example, the browser also implements its own version without using the livuv library.
 
 Q: What is the event loop?  
-A: We could say that it is a connector between worlds, on the one hand the event queue (that have environments like node or chrome, etc) and on the other hand the callstack (by the javascript engine V8), it is used to handle asynchronous events because javascript is synchronous, first priority is given to the actions that are in the callback and then once it is emptied will begin to run the events in the queue.
+A: We could say that **it is a connector between worlds**, on the one hand **the event queue** (that have environments like node or chrome, etc) **and** on the other hand **the callstack** (by the javascript engine V8), **it is used to handle asynchronous events because javascript is synchronous**, first priority is given to the actions that are in the callback and then once it is emptied will begin to run the events in the queue.
 
 Q: What is non-blocking IO?  
 A: It is the ability to do actions without pausing or stopping other actions (as long as it is done correctly).
@@ -236,13 +237,13 @@ A: The principle of relational databases is based on the organization of informa
 This allows to make relationships with other tables (which is the representation of the entity in the database).
 
 Q: What is ACID?  
-A: It means Atomicity, Consistency, Isolation and Durability. These are properties that relational databases bring to systems and allow them to be more robust and less vulnerable to failures.
+A: It means **Atomicity**, **Consistency**, **Isolation** and **Durability**. These are properties that relational databases bring to systems and allow them to be more robust and less vulnerable to failures.
 
 Q: What is a NO-SQL (non-relational) database?  
 A: As its name suggests, non-relational databases are those that, unlike relational databases, do not have an identifier that serves as a relationship between one set of data and another. They are very useful when we do not have an exact schema of what is going to be stored.
 
 Q: What is an ORM?  
-A: Object Relational Mapping, is a programming model that consists of the transformation of the tables of a database, in a series of entities (a model, class or a simple object) that simplify the basic tasks of access to the data for the programmer.
+A: **Object Relational Mapping**, is a programming model that consists of the transformation of the tables of a database, in a series of entities (a model, class or a simple object) that simplify the basic tasks of access to the data for the programmer.
 
 Q: What is an ODM?  
 A: It is the same as an ORM but it is intended for non-relational databases (NO-SQL).
@@ -286,7 +287,7 @@ A: It is a set of definitions and protocols used to develop and integrate applic
 Q: What is an architectural pattern?  
 A: It is a general and reusable solution to a common problem in software architecture within a given context.
 
-Q: What is the recommended use of "N-tier" architecture?  
+Q: What is the recommended use of "N-tier" (multi-tier) architecture?  
 A: It is recommended to use this architecture in desktop applications in general and in API's.
 
 Q: What is the recommended use of "client and server" architecture?  
@@ -298,7 +299,7 @@ Q: What is REST?
 A: It is an acronym for Representational State Transfer, an architectural style based on a set of predefined principles that describe how resources are defined and addressed through a web service.
 
 Q: What is RESTful?  
-A: Web service that implements REST principles
+A: Web service that implements REST principles.
 
 ### 13. Microservices
 
@@ -317,35 +318,39 @@ Q: What is the recommended approach when starting to build an application?
 A: It is recommended to start with a monolith and then as the demand increases you convert it into microservices.
 
 Q: What are the advantages of monolithic applications?  
-A: 1.Simple to develop
-2.Simple to test
-3.Easy to work alone
-Simple to deploy
+A: 1.Simple to develop  
+2.Simple to test  
+3.Easy to work alone  
+4.Simple to deploy
 
 Q: What are the disadvantages of monolithic applications?  
-A: They are not flexible e.g. (if we start with a programming language we have to finish with that one because we will not be able to change it). 2. Difficult to maintain e.g. (the demand can make the application unsustainable).
-3.Difficult to scale e.g. (if you want to scale horizontally you have to duplicate the whole application instead of just 1 single component)
-Unreliable potential e.g. (if something is damaged inside the application, the whole application will be damaged).
+A: 1.They are not flexible e.g. (if we start with a programming language we have to finish with that one because we will not be able to change it).  
+2.Difficult to maintain e.g. (the demand can make the application unsustainable).  
+3.Difficult to scale e.g. (if you want to scale horizontally you have to duplicate the whole application instead of just 1 single component)  
+4.Unreliable potential e.g. (if something is damaged inside the application, the whole application will be damaged).
 
 Q: What is microservices architecture?  
 A: It is a collection of small, autonomous services with unique responsibilities.
 
 Q: Is any small service a microservice?  
-A: No, microservices have the following characteristics:
-1.Single responsibility 2. They are persistent e.g. (data cannot be breached, lost, etc.).
-They are resilient e.g. (if a microservice crashes, it must know how to get up and know where it left off).
-4.They have logs e.g. (we should know at all times in what state and what our microservice has done, even what it is doing at the moment).
-They have a well defined API e.g. (I have to know if I am going to communicate with it with REST, rabbid enqueue, message broker, etc).
+A: No, microservices have the following characteristics:  
+1.Single responsibility.  
+2.They are persistent e.g. (data cannot be breached, lost, etc.).  
+3.They are resilient e.g. (if a microservice crashes, it must know how to get up and know where it left off).  
+4.They have logs e.g. (we should know at all times in what state and what our microservice has done, even what it is doing at the moment).  
+5.They have a well defined API e.g. (I have to know if I am going to communicate with it with REST, rabbid enqueue, message broker, etc).
 
 Q: What are the advantages of microservices?  
-A: 1.Super easy to scale e.g. (if we have a service that is being consumed more than the others we only have to scale that one and not the whole application). 2. Combination of technologies e.g. (we can take advantage of the different benefits of several programming languages).
-3.Reliable potential e.g. (we know the state in which each of the microservices is and we know that if any of them fails it must be able to get up again).
-Transparent Deploys e.g. (we can count on a CI/CD that will help us to bring a service to production with a simple commit).
+A: 1.Super easy to scale e.g. (if we have a service that is being consumed more than the others we only have to scale that one and not the whole application).  
+2.Combination of technologies e.g. (we can take advantage of the different benefits of several programming languages).  
+3.Reliable potential e.g. (we know the state in which each of the microservices is and we know that if any of them fails it must be able to get up again).  
+4.Transparent Deploys e.g. (we can count on a CI/CD that will help us to bring a service to production with a simple commit).
 
 Q: What are the disadvantages of microservices?  
-A: Difficult to test (together) e.g. (if we have 1000 microservices we have to do an independent deployment of each one of them and also test them globally all together).
-Possibility of duplication e.g. (it can happen that there are so many microservices that microservices with the same functionality are created). 3. Information integrity e.g. (ideally each microservice would have to have a totally different database, but then it may be the case that in one of these databases there is duplicity and not in another. In these cases it is necessary to know that the architecture must be respected so that the integrity of the information/data is maintained).
-Specialized teams e.g. (developers are expected to have DevOps experience, they have to deliver the application, localized, tested, etc).
+A: 1.Difficult to test (together) e.g. (if we have 1000 microservices we have to do an independent deployment of each one of them and also test them globally all together).  
+2.Possibility of duplication e.g. (it can happen that there are so many microservices that microservices with the same functionality are created).  
+3.Information integrity e.g. (ideally each microservice would have to have a totally different database, but then it may be the case that in one of these databases there is duplicity and not in another. In these cases it is necessary to know that the architecture must be respected so that the integrity of the information/data is maintained).  
+4.Specialized teams e.g. (developers are expected to have DevOps experience, they have to deliver the application, localized, tested, etc).
 
 Q: What is Kubernetes?  
 A: It is a container orchestrator that takes care of the maintenance of our applications.
