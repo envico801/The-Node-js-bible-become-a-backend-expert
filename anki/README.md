@@ -301,6 +301,59 @@ A: It is an acronym for Representational State Transfer, an architectural style 
 Q: What is RESTful?  
 A: Web service that implements REST principles
 
+### 13. Microservices
+
+#### C1
+
+Q: What is monolithic architecture?  
+A: It is a single logical executable, a single autonomous unit, an example is the MVC pattern, where everything we need is in the same place.
+
+Q: What is vertical scaling?  
+A: Vertical scaling refers to scaling by adding more power (e.g. CPU, RAM) to an existing machine (also described as "scaling up").
+
+Q: What is horizontal scaling?  
+A: Horizontal scaling means scaling by adding more machines to your pool of resources (also described as "scaling out"). We would have to set up a load balancer, make sure that if one of our services stops working the others will pick up the slack, etc.
+
+Q: What is the recommended approach when starting to build an application?  
+A: It is recommended to start with a monolith and then as the demand increases you convert it into microservices.
+
+Q: What are the advantages of monolithic applications?  
+A: 1.Simple to develop
+2.Simple to test
+3.Easy to work alone
+Simple to deploy
+
+Q: What are the disadvantages of monolithic applications?  
+A: They are not flexible e.g. (if we start with a programming language we have to finish with that one because we will not be able to change it). 2. Difficult to maintain e.g. (the demand can make the application unsustainable).
+3.Difficult to scale e.g. (if you want to scale horizontally you have to duplicate the whole application instead of just 1 single component)
+Unreliable potential e.g. (if something is damaged inside the application, the whole application will be damaged).
+
+Q: What is microservices architecture?  
+A: It is a collection of small, autonomous services with unique responsibilities.
+
+Q: Is any small service a microservice?  
+A: No, microservices have the following characteristics:
+1.Single responsibility 2. They are persistent e.g. (data cannot be breached, lost, etc.).
+They are resilient e.g. (if a microservice crashes, it must know how to get up and know where it left off).
+4.They have logs e.g. (we should know at all times in what state and what our microservice has done, even what it is doing at the moment).
+They have a well defined API e.g. (I have to know if I am going to communicate with it with REST, rabbid enqueue, message broker, etc).
+
+Q: What are the advantages of microservices?  
+A: 1.Super easy to scale e.g. (if we have a service that is being consumed more than the others we only have to scale that one and not the whole application). 2. Combination of technologies e.g. (we can take advantage of the different benefits of several programming languages).
+3.Reliable potential e.g. (we know the state in which each of the microservices is and we know that if any of them fails it must be able to get up again).
+Transparent Deploys e.g. (we can count on a CI/CD that will help us to bring a service to production with a simple commit).
+
+Q: What are the disadvantages of microservices?  
+A: Difficult to test (together) e.g. (if we have 1000 microservices we have to do an independent deployment of each one of them and also test them globally all together).
+Possibility of duplication e.g. (it can happen that there are so many microservices that microservices with the same functionality are created). 3. Information integrity e.g. (ideally each microservice would have to have a totally different database, but then it may be the case that in one of these databases there is duplicity and not in another. In these cases it is necessary to know that the architecture must be respected so that the integrity of the information/data is maintained).
+Specialized teams e.g. (developers are expected to have DevOps experience, they have to deliver the application, localized, tested, etc).
+
+Q: What is Kubernetes?  
+A: It is a container orchestrator that takes care of the maintenance of our applications.
+
+Q: What is an API gateway?  
+A: It is an entity that is in charge of receiving the requests and then it is going to pass it to the microservice responsible for responding.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
