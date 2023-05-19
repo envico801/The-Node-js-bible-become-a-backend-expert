@@ -293,6 +293,14 @@ A: It is recommended to use this architecture in desktop applications in general
 Q: What is the recommended use of "client and server" architecture?  
 A: It is recommended to use this architecture in low coupling applications. Example, mobile applications and API's
 
+#### C2
+
+Q: What is REST?  
+A: It is an acronym for Representational State Transfer, an architectural style based on a set of predefined principles that describe how resources are defined and addressed through a web service.
+
+Q: What is RESTful?  
+A: Web service that implements REST principles
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
