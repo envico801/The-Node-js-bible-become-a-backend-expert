@@ -354,6 +354,22 @@ A: It is a container orchestrator that takes care of the maintenance of our appl
 Q: What is an API gateway?  
 A: It is an entity that is in charge of receiving the requests and then it is going to pass it to the microservice responsible for responding.
 
+### 14. CI/CD
+
+#### C1
+
+Q: What is continuous integration?  
+A: It is a process where every change we make to our code must be tested and verified by the tests we have written beforehand.
+
+Q: What is continuous delivery?  
+A: It is similar to continuous integration, only in a more automated way and also our acceptance tests must be of high quality, because Continuous Delivery makes sure that every change we make is ready to be released to production.
+
+Q: What is continuous deployment?  
+A: As the name implies, we take care of continuous and automated deployments.
+
+Q: What is a pipeline?  
+A: It is a sequence of steps to be followed in a DevOps process.
+
 ---
 
 TARGET DECK: Javascript::Node::MTNBB - The node.js bible become a backend expert - marluan espiritusanto
