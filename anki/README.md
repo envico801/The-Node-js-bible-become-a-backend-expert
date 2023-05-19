@@ -6,11 +6,11 @@
 
 #### C1
 
-Q: What is a processor (in a computer)?  
+Q: What is a processor (speaking of computers)?  
 A: The processor is the brain of the system, it processes everything that happens on the PC and executes all the actions that exist.
 
-Q: What is machine code (processor languages)?  
-A: They are languages or code that the processor understands (low level) and that allow us to interact with it.
+Q: What are processor languages (machine code)?
+A: They are languages or codes that the processor understands (at a low level) and that allow us to interact with it.
 
 #### C2
 
@@ -67,7 +67,7 @@ A: Array, Set, Map
 #### C4
 
 Q: What is a variable?  
-A: It is a space in memory that is used to store data and to access this space a name is used, as if it were the key to a door.
+A: It is a space in memory that is created to store data and a name is used to access this space. You can imagine it as the key to a door.
 
 #### C5
 
@@ -114,14 +114,13 @@ Q: Why do you have to export components of a module?
 A: Because everything that is not plain code will require you to export it explicitly, for example:
 
 ```javascript
-funcion asd() {
-    return "asd"
+function myFunction() {
+  return 'Hi!';
 }
-
-module.export = asd
+module.export = myFunction;
 // ---
-const asdFun = require("./myModule")
-asdFun() // "asd"
+const importedFun = require('./myModule');
+importedFun(); // "Hi!"
 ```
 
 Q: In what order node looks for the available modules?  
@@ -146,14 +145,14 @@ A: Because it executes line by line, it was designed for that, there is always o
 #### C2
 
 Q: What is an event?  
-A: It is a situation that has happened in our application, to which we can respond, this concept is found in many areas of software architecture.
+A: It is a situation that has happened in our application, to which we can respond. This concept is found in many areas of software architecture.
 
 Q: Why is it said that nodejs has 2 types of events?  
-A: They are often connected to each other, but node on the one hand handles the system events (C++, the nodejs core) thanks to the livuv library.
-On the other hand there are the custom events that are triggered by the event handler inside the javascript core. They are handled by another library that deals with events (where basically something happens and we can respond).
+A: They are often connected to each other, but **node** on the one hand **handles the system events (C++, the nodejs core) thanks to the livuv library**.  
+On the other hand there are the **custom events that are triggered by the event handler inside the javascript core**.
 
 Q: What kind of events does livuv send?  
-A: Sends events that are happening inside the computer system (low level).
+A: Livuv sends events that are occurring within the computer system (at a low level).
 
 Q: Why is it said that the 2 types of events that exist in node are connected?  
 A: Because many times the events that are executed at system level (with the livuv library) are forwarded by the javascript event handler, that's why many times they are confused with only 1 thing
