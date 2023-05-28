@@ -45,7 +45,7 @@ Q: What is a server (in its simplest form)?
 A: It is a computer that is providing services, it performs the work that is requested of it.
 
 Q: What is the standard format of communication between a client and a server?  
-A: HTTP
+A: HTTP (Hypertext Transfer Protocol)
 
 Q: What is AJAX?  
 A: It is a technique used for asynchronous communication between a client and a server.
@@ -167,7 +167,8 @@ A: Because it is used to simulate the behavior of first-order functions.
 
 Q: What are magic strings?  
 A: A magic string is a string that declares directly in several places in a code without assigning it to a variable.  
-According to magic strings, a program’s behavior can change. Examples of magic strings include cache keys, specific URL patterns, prefixes, user types.
+According to magic strings, a program’s behavior can change.  
+Examples of magic strings include cache keys, specific URL patterns, prefixes, user types.
 
 ```javascript
 function myFun(foo) {
@@ -296,7 +297,7 @@ A: It is recommended to use this architecture in low coupling applications. Exam
 #### C2
 
 Q: What is REST?  
-A: It is an acronym for Representational State Transfer, an architectural style based on a set of predefined principles that describe how resources are defined and addressed through a web service.
+A: It is an acronym for **Representational State Transfer**, an architectural style based on a set of predefined principles that describe how resources are defined and addressed through a web service.
 
 Q: What is RESTful?  
 A: Web service that implements REST principles.
