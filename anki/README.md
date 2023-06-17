@@ -238,7 +238,10 @@ A: The principle of relational databases is based on the organization of informa
 This allows to make relationships with other tables (which is the representation of the entity in the database).
 
 Q: What is ACID?  
-A: It means **Atomicity**, **Consistency**, **Isolation** and **Durability**. These are properties that relational databases bring to systems and allow them to be more robust and less vulnerable to failures.
+A: It means **Atomicity**, **Consistency**, **Isolation** and **Durability**.
+
+Q: What properties do relational databases bring to systems?  
+A: They bring properties that allow them to be more robust and less vulnerable to failures.
 
 Q: What is a NO-SQL (non-relational) database?  
 A: As its name suggests, non-relational databases are those that, unlike relational databases, do not have an identifier that serves as a relationship between one set of data and another. They are very useful when we do not have an exact schema of what is going to be stored.
