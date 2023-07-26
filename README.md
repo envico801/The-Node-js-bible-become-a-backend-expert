@@ -1,4 +1,4 @@
-# The Node.js Bible: become a backend expert
+# The Node.js bible: become a backend expert
 
 ## Learn how to design software like a pro from the basics to become an expert
 
