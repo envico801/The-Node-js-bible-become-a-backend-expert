@@ -304,7 +304,7 @@ P: From what year did SQL (relational) databases start to be used?
 R: They started to be used in the 80's and until today they are still the most popular option.
 
 P: What is a relational database?  
-R: The principle of relational databases is based on the organization of information in small pieces, which are related to each other through the relationship of identifiers.
+R: The principle of relational databases is based on the organization of information in small pieces, which are related to each other through the relationship of identifiers.  
 This allows to make relationships with other tables (which is the representation of the entity in the database).
 
 P: What is ACID?  
@@ -366,7 +366,7 @@ R: It is a conceptual and technological structure of defined support, usually wi
 #### Chapter 7 - Frontend structure
 
 P: What is typescript?  
-It is an open source programming language developed by Microsoft, which has object-oriented programming tools, very favorable if you have large projects.
+R: It is an open source programming language developed by Microsoft, which has object-oriented programming tools, very favorable if you have large projects.
 
 P: What is a superset?  
 R: It is a programming language written on top of another language.
