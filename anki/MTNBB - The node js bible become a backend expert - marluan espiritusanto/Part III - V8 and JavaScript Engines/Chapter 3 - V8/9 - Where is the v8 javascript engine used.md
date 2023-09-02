@@ -1,6 +1,6 @@
 Q: Where is the V8 javascript engine used?  
 A: It is the javascript engine used by google chrome and node.
-
+<!--ID: 1693660763476-->
 
 ---
 
@@ -8,9 +8,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Node::MTNBB - The node js bible become a backend expert - marluan espiritusanto::Part III - V8 and JavaScript Engines::Chapter 3 - V8
 
-FILE TAGS: Javascript Node
-
-Tags:
+FILE TAGS: #Javascript #Node
 
 Reference:
 

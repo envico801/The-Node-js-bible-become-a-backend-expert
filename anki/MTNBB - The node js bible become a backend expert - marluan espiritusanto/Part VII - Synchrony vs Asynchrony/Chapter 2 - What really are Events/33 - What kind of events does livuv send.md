@@ -1,6 +1,6 @@
 Q: What kind of events does livuv send?  
 A: Livuv sends events that are occurring within the computer system (at a low level).
-
+<!--ID: 1693660761707-->
 
 ---
 
@@ -8,9 +8,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Node::MTNBB - The node js bible become a backend expert - marluan espiritusanto::Part VII - Synchrony vs Asynchrony::Chapter 2 - What really are Events
 
-FILE TAGS: Javascript Node
-
-Tags:
+FILE TAGS: #Javascript #Node
 
 Reference:
 

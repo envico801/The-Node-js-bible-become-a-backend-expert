@@ -1,6 +1,6 @@
 Q: What happens when the await word is called?  
 A: Calling the await word causes code execution to pause until a promise is resolved or rejected. It will return a completed promise
-
+<!--ID: 1693660762886-->
 
 ---
 
@@ -8,9 +8,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Node::MTNBB - The node js bible become a backend expert - marluan espiritusanto::Part V - JavaScript Review ES6::Chapter 16 - Theory Async-Await
 
-FILE TAGS: Javascript Node
-
-Tags:
+FILE TAGS: #Javascript #Node
 
 Reference:
 

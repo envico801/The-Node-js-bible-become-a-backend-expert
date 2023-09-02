@@ -1,6 +1,6 @@
 Q: From what year did SQL (relational) databases start to be used?  
 A: They started to be used in the 80's and until today they are still the most popular option.
-
+<!--ID: 1693660760052-->
 
 ---
 
@@ -8,9 +8,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Node::MTNBB - The node js bible become a backend expert - marluan espiritusanto::Part IX - Databases::Chapter 1 - Introduction
 
-FILE TAGS: Javascript Node
-
-Tags:
+FILE TAGS: #Javascript #Node
 
 Reference:
 

@@ -3,7 +3,7 @@ A: 1.Simple to develop
 2.Simple to test  
 3.Easy to work alone  
 4.Simple to deploy
-
+<!--ID: 1693660757994-->
 
 ---
 
@@ -11,9 +11,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Node::MTNBB - The node js bible become a backend expert - marluan espiritusanto::Part XIII - Microservices::Chapter 1 - Introduction
 
-FILE TAGS: Javascript Node
-
-Tags:
+FILE TAGS: #Javascript #Node
 
 Reference:
 

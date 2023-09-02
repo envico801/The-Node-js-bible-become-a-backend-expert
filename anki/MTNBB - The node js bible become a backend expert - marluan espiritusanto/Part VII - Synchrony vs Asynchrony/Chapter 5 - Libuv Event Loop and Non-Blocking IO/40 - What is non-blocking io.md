@@ -1,6 +1,6 @@
 Q: What is non-blocking IO?  
 A: It is the ability to do actions without pausing or stopping other actions (as long as it is done correctly).
-
+<!--ID: 1693660761033-->
 
 ---
 
@@ -8,9 +8,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Node::MTNBB - The node js bible become a backend expert - marluan espiritusanto::Part VII - Synchrony vs Asynchrony::Chapter 5 - Libuv Event Loop and Non-Blocking IO
 
-FILE TAGS: Javascript Node
-
-Tags:
+FILE TAGS: #Javascript #Node
 
 Reference:
 

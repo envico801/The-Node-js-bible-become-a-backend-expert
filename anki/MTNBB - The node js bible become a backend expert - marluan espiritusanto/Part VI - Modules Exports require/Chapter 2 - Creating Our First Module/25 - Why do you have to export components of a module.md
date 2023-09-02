@@ -2,14 +2,14 @@ Q: Why do you have to export components of a module?
 A: Because everything that is not plain code will require you to export it explicitly, for example:
 ```javascript
 function myFunction() {
-  return 'Hi!';
+  return "Hi!";
 }
 module.export = myFunction;
 // ---
-const importedFun = require('./myModule');
+const importedFun = require("./myModule");
 importedFun(); // "Hi!"
 ```
-
+<!--ID: 1693660762559-->
 
 ---
 
@@ -17,9 +17,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Node::MTNBB - The node js bible become a backend expert - marluan espiritusanto::Part VI - Modules Exports require::Chapter 2 - Creating Our First Module
 
-FILE TAGS: Javascript Node
-
-Tags:
+FILE TAGS: #Javascript #Node
 
 Reference:
 

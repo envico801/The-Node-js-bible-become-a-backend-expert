@@ -3,7 +3,7 @@ A: It is anything that produces a data type (Object, String, Number, Boolean, Ar
 ```javascript
 const test = 34; // 34 is an expression
 ```
-
+<!--ID: 1693660763267-->
 
 ---
 
@@ -11,9 +11,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Node::MTNBB - The node js bible become a backend expert - marluan espiritusanto::Part V - JavaScript Review ES6::Chapter 2 - Expressions
 
-FILE TAGS: Javascript Node
-
-Tags:
+FILE TAGS: #Javascript #Node
 
 Reference:
 

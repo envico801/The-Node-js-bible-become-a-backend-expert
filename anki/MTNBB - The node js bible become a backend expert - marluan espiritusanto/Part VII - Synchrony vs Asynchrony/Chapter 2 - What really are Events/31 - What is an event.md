@@ -1,6 +1,6 @@
 Q: What is an event?  
 A: It is a situation that has happened in our application, to which we can respond. This concept is found in many areas of software architecture.
-
+<!--ID: 1693660761827-->
 
 ---
 
@@ -8,9 +8,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Node::MTNBB - The node js bible become a backend expert - marluan espiritusanto::Part VII - Synchrony vs Asynchrony::Chapter 2 - What really are Events
 
-FILE TAGS: Javascript Node
-
-Tags:
+FILE TAGS: #Javascript #Node
 
 Reference:
 

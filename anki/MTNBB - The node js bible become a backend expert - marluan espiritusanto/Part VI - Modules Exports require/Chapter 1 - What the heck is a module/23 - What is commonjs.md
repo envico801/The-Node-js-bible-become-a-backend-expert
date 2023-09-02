@@ -1,6 +1,6 @@
 Q: What is CommonJS?  
 A: It is a set of rules for how code modules should be structured. Its format has been heavily influenced by NodeJS module management.
-
+<!--ID: 1693660762733-->
 
 ---
 
@@ -8,9 +8,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Node::MTNBB - The node js bible become a backend expert - marluan espiritusanto::Part VI - Modules Exports require::Chapter 1 - What the heck is a module
 
-FILE TAGS: Javascript Node
-
-Tags:
+FILE TAGS: #Javascript #Node
 
 Reference:
 
